@@ -13,9 +13,7 @@ import com.xiaozhang.admin.model.AreaModel;
 
 public interface IAreaDao {
     int deleteByPrimaryKey(String area_id) throws SQLException;
-
     int insert(AreaModel record) throws SQLException;
-
     AreaModel selectByPrimaryKey(String area_id) throws SQLException;
 
     List<AreaModel> selectAll() throws SQLException;
